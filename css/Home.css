@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    font-family: 'Aclonica';
+    background-color: rgba(175, 192, 143, 0.527);
+}
+
+hr{
+	height: 10px;
+	background-color: rgba(83, 116, 83, 0.703);
+}
+
+ul.ListS{
+    list-style-image: url(../Pictures/yarn.png);
+    list-style-position: inside;
+    text-align: justify;
+    margin-left: 15%;
+    font-size: 19px;
+}
+
+ul.ListW{
+    list-style-image: url(../Pictures/yarn.png);
+    list-style-position: inside;
+    text-align: justify;
+    margin-left: 28%;
+    font-size: 19px;
+}
+
+ul li::first-letter{
+    font-size: 1.3em;
+    line-height: 2em;
+    font-style: italic;
+    color: olivedrab;
+    font-weight: 900;
+}
+
+.column{
+    margin: 12px 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#c1{
+    width: 70%;
+    margin-left: 16% ;
+}
